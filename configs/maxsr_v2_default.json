@@ -1,0 +1,63 @@
+{
+  "project": "GRAMM MAX-SR V2",
+  "task": "4-band multispectral super-resolution, exact x2, 2.0m -> 1.0m",
+  "input_shape": [
+    4,
+    36,
+    36
+  ],
+  "output_shape": [
+    4,
+    72,
+    72
+  ],
+  "footprint_m": 72.0,
+  "architecture": {
+    "backbone": "EHFNet-MS pretrained-compatible",
+    "backbone_channels": 48,
+    "fusion_channels": 128,
+    "spectral_adapter": true,
+    "transformer_blocks": 2,
+    "mamba_or_ssm_blocks": 2,
+    "frequency_expert": "Haar high-frequency expert",
+    "band4_feature_expert": true,
+    "moe_experts": 4,
+    "upsampling": "PixelShuffle x2 + bicubic global residual",
+    "hr_refinement_blocks": 4,
+    "band4_output_refinement": true,
+    "uncertainty_head": true,
+    "differentiable_degradation": true
+  },
+  "training": {
+    "epochs": 1000,
+    "batch_size": 32,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 64,
+    "base_lr": 0.0002,
+    "backbone_lr": 5e-05,
+    "weight_decay": 1e-05,
+    "warmup_epochs": 10,
+    "backbone_freeze_epochs": 10,
+    "gradient_clip": 1.0,
+    "amp": true,
+    "ema_decay": 0.9995,
+    "auto_resume": true,
+    "periodic_checkpoint_every_epochs": 25
+  },
+  "inference": {
+    "tta_x8": true,
+    "best_checkpoint_ensemble": true
+  },
+  "physics": {
+    "lr_total_mtf_nyquist_assumption": 0.3,
+    "ndvi_loss_enabled": false,
+    "special_band_zero_based": 3
+  },
+  "status": {
+    "architecture_finalized": true,
+    "notebook_implemented": true,
+    "notebook_syntax_checked": true,
+    "full_training_completed": false,
+    "runtime_gpu_validation_completed": false
+  }
+}

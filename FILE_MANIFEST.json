@@ -1,0 +1,97 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 518,
+    "sha256": "bea6390a67ee481a6b827f8ea0b3127dfe54afd6d877e8eb8434df46bd876720"
+  },
+  {
+    "path": "README.md",
+    "bytes": 14881,
+    "sha256": "6c6e38eb9c5c1110d6a2387ffa421251f1f704dd38db7c9b8e8111906ff6df4c"
+  },
+  {
+    "path": "checkpoints/README.md",
+    "bytes": 274,
+    "sha256": "be6854b38ff168ad5335a4c37e22cfd9041b14063da82c62ab0c7521c0fd04d4"
+  },
+  {
+    "path": "configs/maxsr_v2_default.json",
+    "bytes": 1579,
+    "sha256": "1f63e75a5df5227e2b5761c81cdab797a837303f52134b2ef0a8e890cb491ad0"
+  },
+  {
+    "path": "data/README.md",
+    "bytes": 604,
+    "sha256": "50ecdf3c99ae5972622a7a97aa66b5a5252919239f7826356fb1f3738f611caf"
+  },
+  {
+    "path": "data/raw/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "bytes": 3881,
+    "sha256": "65c76a3f3a3dc28025b1e793cd801955c7a61eb87f0de9f59026dfeb8fd35f2b"
+  },
+  {
+    "path": "docs/CHANGELOG.md",
+    "bytes": 1314,
+    "sha256": "9438913167a4e29cf9a387ff13c92f60cf3f5b0de0d71faced154962fc63031b"
+  },
+  {
+    "path": "docs/GITHUB_UPLOAD.md",
+    "bytes": 519,
+    "sha256": "8eae9cfcb8a0f79311cd37dc85251c2ce87e29fc6d1cb8a6d71a861f00912949"
+  },
+  {
+    "path": "docs/PROJECT_STATUS.md",
+    "bytes": 1864,
+    "sha256": "26de6ebe0b43425b100e7dc0631a65729336d655d5ec81f3488036bfe0446a46"
+  },
+  {
+    "path": "docs/TRAINING_GUIDE.md",
+    "bytes": 1933,
+    "sha256": "06d10b495938e9a5f05091cef527a969827f5e0303cbdf8efe771ffbd3c0b51d"
+  },
+  {
+    "path": "docs/max_performance_composite_plan_ar.pdf",
+    "bytes": 341503,
+    "sha256": "28ac1e5f2be1eb2d21a2d0995a49fce085a0a67b0c40914c58631ebb6c7e803a"
+  },
+  {
+    "path": "notebooks/GRAMM_MAXSR_V2_LOCAL_2m_to_1m.ipynb",
+    "bytes": 125688,
+    "sha256": "43d7b04ea5f5e1cf5eaaec42d5cae38088a0a767e1b2a6fc8c0ef7bd78d90005"
+  },
+  {
+    "path": "outputs/README.md",
+    "bytes": 227,
+    "sha256": "d633d41549372bda7256417fc2e221adb3db8280881f2e98fb9d8f307ea0fe94"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 392,
+    "sha256": "4d67a8a1c2f4b9139b4f055d130af9d281baca3499ac1fa1111b365007a52fe3"
+  },
+  {
+    "path": "scripts/run_jupyter.bat",
+    "bytes": 40,
+    "sha256": "a6f6e626e70d6f47961b0f5a511e840be107a1fbdaec489fb4502fcae1689500"
+  },
+  {
+    "path": "scripts/run_jupyter.sh",
+    "bytes": 63,
+    "sha256": "c7d1b2d208bcc343d080015b3b9b9edb22025a2ee996084d027ddeff866e9928"
+  },
+  {
+    "path": "scripts/validate_notebook.py",
+    "bytes": 488,
+    "sha256": "e6b443c8b2a21446ed1830cdf98ce5b92514b0df0d9b31962a3301171f3b03ea"
+  },
+  {
+    "path": "workspace/README.md",
+    "bytes": 293,
+    "sha256": "679be257c247086aeff0af7ef34c486272987560a9aec107165f318eddff1e3a"
+  }
+]

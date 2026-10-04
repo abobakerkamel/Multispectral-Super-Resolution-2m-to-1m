@@ -1,0 +1,22 @@
+# GRAMM MAX-SR V2
+# IMPORTANT:
+# Install a CUDA-enabled PyTorch build matching your CUDA/driver FIRST:
+# https://pytorch.org/get-started/locally/
+#
+# Then:
+#   pip install -r requirements.txt
+
+numpy
+pandas
+matplotlib
+tqdm
+scipy
+scikit-image
+rasterio
+nbformat
+jupyterlab
+ipykernel
+
+# Optional true Mamba.
+# Recommended mainly on Linux/WSL with a compatible CUDA/PyTorch toolchain:
+# mamba-ssm
