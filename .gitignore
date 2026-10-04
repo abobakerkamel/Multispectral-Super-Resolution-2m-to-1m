@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large geospatial / array data
+data/raw/*
+!data/raw/.gitkeep
+*.tif
+*.tiff
+*.npy
+*.npz
+*.zarr
+*.h5
+*.hdf5
+
+# Workspace generated data
+workspace/*
+!workspace/README.md
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+checkpoints/*
+!checkpoints/README.md
+
+# Outputs
+outputs/*
+!outputs/README.md
+
+# Logs / temporary
+*.log
+tmp/
+temp/
